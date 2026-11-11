@@ -1,0 +1,14 @@
+{
+  "name": "cap-set",
+  "version": "1.0.0",
+  "description": "Conjuntos sem tres em linha em F_3^n",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "main": "src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  }
+}
